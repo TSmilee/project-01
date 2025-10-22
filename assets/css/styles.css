@@ -16,6 +16,23 @@ body {
 }
 
 /* ------------------------------Common------------------------------ */
+.btn {
+    display: inline-block;
+    min-width: 186px;
+    line-height: 68px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 14px;
+    background: #1ebfc1;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
 a {
     text-decoration: none;
 }
@@ -35,6 +52,7 @@ a {
 .header.fixed {
     position: sticky;
     top: -26px;
+    z-index: 1;
 }
 
 .header .body {
@@ -89,4 +107,183 @@ a {
 .header .sign-up-btn:hover {
     color: #fff;
     background: var(--primary-color);
+}
+
+/* ------------------------------Hero------------------------------ */
+.hero {
+    padding: 42px 0 79px;
+}
+
+.hero .body {
+    display: flex;
+}
+
+/* Hero left */
+.hero .content-block {
+    width: 46%;
+    margin-top: 93px;
+}
+
+.hero .content-block .comment {
+    color: #767e7e;
+    font-size: 1.4rem;
+}
+
+.hero .content-block .heading {
+    margin-top: 18px;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16;
+}
+
+.hero .content-block .desc {
+    margin: 46px 0;
+    width: 374px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    line-height: 1.78;
+}
+
+.hero .content-block .cta-group {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.hero .content-block .icon {
+    margin-left: 50px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+
+.hero .content-block .play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    border: 50%;
+    border-radius: 62px;
+    background: #fff;
+    box-shadow: 0 22px 50px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Hero right */
+.hero .media-block {
+    position: relative;
+    width: 54%;
+    margin-left: 136px;
+}
+
+.hero .media-block .img {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+
+/* Book */
+.hero .media-block .book {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 157px;
+    height: 75px;
+    padding: 17px 25px;
+    top: 149px;
+    left: -40px;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+}
+
+.hero .book .book-img {
+    position: relative;
+}
+
+.hero .book .book-icon {
+    position: absolute;
+    bottom: 8px;
+    left: 4px;
+}
+
+.hero .book .book-desc {
+    margin-left: 16px;
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Line */
+.hero .media-block .line {
+    position: absolute;
+    top: 453px;
+    left: -65px;
+    width: 124px;
+    padding: 16px 25px 23px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.hero .line .line-desc {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .line .line-icon {
+    margin-top: 10px;
+}
+
+.hero .line .line-icon li:last-child {
+    margin-top: 8px;
+}
+
+/* Avatar */
+.hero .media-block .avatar {
+    position: absolute;
+    top: 500px;
+    left: 324px;
+    padding: 17px 35px;
+    width: 207px;
+    height: 90px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0 12px 80px 0 rgba(0, 0, 0, 0.05);
+}
+
+.hero .avatar .avt-desc {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .avatar .avt-block {
+    margin-top: 8px;
+}
+
+.hero .avt-block .avt-group {
+    display: flex;
+}
+
+.hero .avt-block .avt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 33px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #1ebfc1;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .avt-block .avt + .avt {
+    margin-left: -7px;
 }
