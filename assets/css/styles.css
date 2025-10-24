@@ -49,11 +49,11 @@ a {
     padding: 52px 0 8px;
 }
 
-.header.fixed {
+/* .header.fixed {
     position: sticky;
     top: -26px;
     z-index: 1;
-}
+} */
 
 .header .body {
     display: flex;
@@ -507,4 +507,77 @@ a {
     color: #767e7e;
     text-align: center;
     font-size: 1.8rem;
+}
+
+/* ------------------------------Feedback------------------------------ */
+.feedback {
+    margin-top: 200px;
+    padding: 30px 0;
+}
+
+.feedback .body {
+    display: flex;
+}
+
+.feedback .content {
+    width: 42%;
+}
+
+.feedback .image {
+    width: 58%;
+}
+
+.feedback .content .open-quotes {
+    margin-top: 37px;
+}
+
+.feedback .content .desc {
+    margin-top: 27px;
+    width: 419px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.feedback .content .name {
+    position: relative;
+    padding-left: 13px;
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    line-height: 24px;
+}
+
+.feedback .content .name::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    left: 0;
+    top: 11px;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.feedback .content strong {
+    color: #070707;
+    font-weight: 500;
+}
+
+.feedback .controls {
+    margin-top: 52px;
+}
+
+.feedback .controls .feedback-btn {
+    margin-right: 30px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2ac9bf;
+    cursor: pointer;
+}
+
+.feedback .controls .feedback-btn:hover {
+    opacity: 0.9;
 }
