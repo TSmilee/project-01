@@ -611,3 +611,94 @@ a {
 .blog .blog-btn {
     margin-left: 410px;
 }
+
+/* ------------------------------Footer------------------------------ */
+.footer {
+    margin-top: 80px;
+    padding: 50px 0;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .row .column:nth-child(1) {
+    width: 23%;
+}
+
+.footer .row .column:nth-child(2) {
+    width: 20%;
+}
+
+.footer .row .column:nth-child(3) {
+    width: 22%;
+}
+
+.footer .row .column:nth-child(4) {
+    width: 25%;
+}
+
+.footer .row .column:nth-child(5) {
+    width: 10%;
+}
+
+.footer .column .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.footer .column .list {
+    margin-top: 26px;
+}
+
+.footer .list li + li {
+    margin-top: 20px;
+}
+
+.footer .list-socials a,
+.footer .list a {
+    color: #535353;
+    font-family: Poppins;
+    font-size: 1.6rem;
+}
+
+.footer .list-socials {
+    margin-top: 18px;
+}
+
+.footer .list-socials .icon:hover {
+    cursor: pointer;
+}
+
+.footer .list-socials .socials {
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+}
+
+.footer .list-socials a {
+    margin-left: 9px;
+}
+
+.footer .list-socials li:hover a,
+.footer .list li:hover a {
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.footer .copyright {
+    text-align: center;
+    margin-top: 80px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+}
+
+/* ------------------------------Căn logo ngang với các tiêu đề------------------------------ */
+.footer .column {
+    position: relative;
+}
+
+.footer .center {
+    position: absolute;
+    top: -8px;
+}
