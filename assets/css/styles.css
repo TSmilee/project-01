@@ -287,3 +287,63 @@ a {
 .hero .avt-block .avt + .avt {
     margin-left: -7px;
 }
+
+/* ------------------------------Features------------------------------ */
+.features {
+    margin-top: 100px;
+    padding: 30px 0;
+}
+
+.features .body {
+    width: 1024px;
+}
+
+.features .comment {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .heading {
+    margin: 18px 0;
+    width: 577px;
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+
+.features .desc {
+    width: 590px;
+    color: #767e7e;
+    font-size: 1.8rem;
+}
+
+.features .features-list {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .features-item .title {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features .features-item .desc {
+    margin-top: 16px;
+    width: 168px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    line-height: 1.67;
+}
+
+.features .features-item .desc:nth-child(2) {
+    width: 223px;
+}
+
+.features .features-item .desc:nth-child(3) {
+    width: 224px;
+}
