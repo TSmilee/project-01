@@ -426,7 +426,7 @@ a {
 }
 
 .courses .courses-item .info:hover {
-    background: #e9fbfb;
+    background: #def6f5;
 }
 
 .courses .courses-item .title {
@@ -580,4 +580,34 @@ a {
 
 .feedback .controls .feedback-btn:hover {
     opacity: 0.9;
+}
+
+/* ------------------------------Blog------------------------------ */
+.blog {
+    margin-top: 100px;
+    padding: 76px 0 87px;
+    background: #def6f5;
+}
+
+.blog .body {
+    display: flex;
+    align-items: center;
+}
+
+.blog .info .heading {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 63px;
+}
+
+.blog .info .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: 27px;
+}
+
+.blog .blog-btn {
+    margin-left: 410px;
 }
